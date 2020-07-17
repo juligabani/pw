@@ -8,11 +8,11 @@ let vapidkeys =  {
 push.setVapidDetails('mailto:juligabani96@gmail.com', vapidkeys.publicKey, vapidkeys.privateKey)
 
 let sub = {
-    "endpoint":"https://fcm.googleapis.com/fcm/send/dNf4wnyZB4s:APA91bHvSwLJDu6Y7aUpw0shIsKtcuBHP7AjU3Us5TyziCh8F0QQZpdJZQCOMNt0AeXJBzQd0VBrWrpRttlZTwoUBetESOTroljBItCcOM9y8UxW9oJosXh95WuJT24jCgLP5Hgv6yzf",
+    "endpoint":"https://fcm.googleapis.com/fcm/send/d0eThAwCDuE:APA91bEkqHKyNxWR6LfmoHxYucH_uYBQEpAn-PGT75cFUJHFQ1FhW09KRn1Ytfdyo0UhFeCzXWKWsClH-QixeayypytoBrUhw1ZfKTAsgRDymdtViekJMApyCJJ0JUmU4sJ1N3B0agWC",
     "expirationTime":null,
     "keys": {
-        "p256dh":"BNyl_cGqGyNmH3IJiGZokIxwyXGjauFUUoF6KCfWRVNgNE_Ys8hRo31nE_zpjinnYv1o6ip-ita1AZNgZQU1u1Y",
-        "auth":"qjcGLs7bkQH1vvJLneTuwQ"
+        "p256dh":"BJH6S3QDjT4p9aRjrpMN8u5wiSOQEbc_px7Jo3XyR-o74t8wo5I0PpsXDpwwnR1QU6HyZNmj-U2EY5Aa1DyVttg",
+        "auth":"WFe5UZ4_skv0bpG3CD1pCw"
     }
 };
 
