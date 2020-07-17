@@ -5,7 +5,7 @@
     <title>Title</title>
 </head>
 <body>
-    <button class="subscribe()">Subscribe</button>
+    <button onclick="subscribe()">Subscribe</button>
 
 <script>
     addEventListener('load', async () => {
@@ -16,7 +16,7 @@
         let sw = await navigator.serviceWorker.ready;
         let push = await sw.pushManager.subscribe({
             userVisibleOnly: true,
-            applicationServerKey: 'todo'
+            applicationServerKey: 'BClvf1hLh9A6-noI_XR0-mE6Gqeg4wJOd2f2dzh0PbKoe88rruQ5wk0kgCUWpOfHwZyzJVxtrXEF8SaKZ-4FgwY'
         })
         console.log(JSON.stringify(push));
     }
